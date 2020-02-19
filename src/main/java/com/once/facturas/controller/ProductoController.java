@@ -25,7 +25,7 @@ public class ProductoController {
     @RequestMapping("/count")
     @ResponseBody
     public String count(){
-        return "Tengo" + String.valueOf(productoRepository.count()) + "productos.";
+        return "Tengo " + String.valueOf(productoRepository.count()) + " productos.";
     }
 
 }
